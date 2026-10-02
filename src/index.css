@@ -1,0 +1,28 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #25332e;
+  background: #faf9f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #25332e;
+  --muted: #626e65;
+  --paper: #faf9f5;
+  --green: #174f3d;
+  --green-deep: #103d30;
+  --line: #e0e3da;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; background: var(--paper); }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+::selection { color: white; background: var(--green); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
